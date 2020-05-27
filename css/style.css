@@ -164,6 +164,21 @@ footer p i {
 	margin-left: -100px;
 }
 
+/* responsive */
+@media screen and (max-width: 513px) {
+	.jumbotron {
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.jumbotron {
+		background-size: cover;
+		background-position: center;
+	}
+}
+
 
 /* animasi */
 @keyframes fadeAjah {
