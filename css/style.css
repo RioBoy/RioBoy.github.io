@@ -175,7 +175,7 @@ footer p i {
 /* responsive */
 @media screen and (max-width: 768px) {
 	.overlay img {
-		margin-top: 250px;
+		margin-top: 40%;
 		max-height: 30%;
 	}
 
@@ -188,8 +188,8 @@ footer p i {
 	}
 
 	.overlay .close {
-		top: 260px;
-		left: 45%;
+		top: 28%;
+		left: 48%;
 	}
 
 	.jumbotron {
