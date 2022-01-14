@@ -54,28 +54,3 @@ $(window).scroll(function () {
 
 
 });
-
-
-const apikey = '3235a5a779321928adf8ad39bfc3e3b9';
-const urlEndpoint = 'https://sms114.xyz/sms/api_sms_masking_balance_json.php';
-
-const data = JSON.stringify({
-  apikey: apikey,
-});
-
-const xhr = new XMLHttpRequest();
-xhr.withCredentials = true;
-
-xhr.addEventListener('readystatechange', function () {
-  if (xhr.readyState == 4 && xhr.status == 200) {
-    console.log(this.responseText);
-  }
-});
-
-xhr.open('POST', urlEndpoint);
-xhr.setRequestHeader('apikey', apikey);
-xhr.setRequestHeader('Content-Type', 'application/json');
-xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
-xhr.setRequestHeader('mode', 'cors');
-
-xhr.send(data);
