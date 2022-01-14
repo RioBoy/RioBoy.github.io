@@ -78,10 +78,18 @@
 
       <div class="row">
         <div class="col-sm-5 col-sm-offset-1">
-          <p class="pKiri">Perkenalkan, saya Januario Boy mahasiswa UNWIRA (Universitas Katholik Widya Mandira Kupang) jurusan Ilmu Komputer S1. Selain sebagai seorang mahasiswa saya juga berprofesi sebagai freelance, saya memiliki keahlian di bidang Web Development khusunya dalam Front-End. Dalam dua tahun terakhir saya memfokuskan diri untuk mengembangkan skill yang dimiliki, baik dalam soft skill seperti kemampuan berbicara dalam Bahasa inggris maupun dalam bidang hard skill yaitu pembuatan website.</p>
+          <p class="pKiri">Perkenalkan, saya Januario Boy mahasiswa UNWIRA (Universitas Katholik Widya Mandira Kupang)
+            jurusan Ilmu Komputer S1. Selain sebagai seorang mahasiswa saya juga berprofesi sebagai freelance, saya
+            memiliki keahlian di bidang Web Development khusunya dalam Front-End. Dalam dua tahun terakhir saya
+            memfokuskan diri untuk mengembangkan skill yang dimiliki, baik dalam soft skill seperti kemampuan berbicara
+            dalam Bahasa inggris maupun dalam bidang hard skill yaitu pembuatan website.</p>
         </div>
         <div class="col-sm-5">
-          <p class="pKanan">Keahlian yang saya di kuasai diantaranya Web Design menggunakan tools seperti Adobe XD dan Figma, Front-End Development menggunakan HTML, CSS, JavaScript, Bootstrap dan Materiallize. Selain Front-End, saya juga menguasai beberapa Bahasa Pemrograman untuk menunjang bagian Back-End diantaranya PHP dengan Framework Codeigniter dan NodeJS dengan Framework ExpressJS. Semoga saya dapat membantu anda membuat website yang diinginkan, senang dapat membantu. Have a great day!</p>
+          <p class="pKanan">Keahlian yang saya di kuasai diantaranya Web Design menggunakan tools seperti Adobe XD dan
+            Figma, Front-End Development menggunakan HTML, CSS, JavaScript, Bootstrap dan Materiallize. Selain
+            Front-End, saya juga menguasai beberapa Bahasa Pemrograman untuk menunjang bagian Back-End diantaranya PHP
+            dengan Framework Codeigniter dan NodeJS dengan Framework ExpressJS. Semoga saya dapat membantu anda membuat
+            website yang diinginkan, senang dapat membantu. Have a great day!</p>
         </div>
       </div>
     </div>
@@ -225,10 +233,10 @@
     <div class="container text-center">
       <div class="row">
         <div class="col-sm-12">
-          <p>&copy; copyright 
+          <p>&copy; copyright
             <script>
               document.write(new Date().getFullYear());
-            </script>  
+            </script>
             | built with by. <a target="_blank" class="instagram" href="http://instagram.com/rioboy_03">Rio Boy</a>.
           </p>
         </div>
@@ -236,9 +244,6 @@
     </div>
   </footer>
   <!-- akhir footer -->
-
-
-
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="js/jquery-3.3.1.min.js"></script>
@@ -250,34 +255,7 @@
 
   <!-- LiveReload -->
   <script src="http://localhost:35729/livereload.js"></script>
-  
-  <!--  Cek balance raja sms  -->
-  <script>
-    const apikey = '3235a5a779321928adf8ad39bfc3e3b9';
-    const urlEndpoint = 'https://sms114.xyz/sms/api_sms_masking_balance_json.php';
 
-    const data = JSON.stringify({
-      apikey: apikey,
-    });
-
-    const xhr = new XMLHttpRequest();
-    xhr.withCredentials = true;
-
-    xhr.addEventListener('readystatechange', function () {
-      if (xhr.readyState == 4 && xhr.status == 200) {
-        console.log(this.responseText);
-      }
-    });
-
-    xhr.open('POST', urlEndpoint);
-    xhr.setRequestHeader('apikey', apikey);
-    xhr.setRequestHeader('Content-Type', 'application/json');
-    xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
-    xhr.setRequestHeader('mode', 'cors');
-
-    xhr.send(data);
-  </script>
-   
 </body>
 
 </html>
